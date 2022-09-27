@@ -1,15 +1,16 @@
 import React from 'react'
+import NavBar from './NavBar'
 
 function Common({pagename}) {
   return (
-    <section >
+    <section className='home'>
       <div className="container-fluid mx-auto ">
         <div className="row">
           <div className="col-10 mx-auto">
             <div className="row">
               <div className="col-md-6 pt-5 order-2 order-lg-1 d-flex  justify-content-center flex-column">
                 <h1>
-                  This is {pagename} page of the
+                  This is <span style={{color:"blue",textDecoration:"underline"}}>{pagename}</span> page of the
                   <strong className="webname"> DemoWebsite</strong>
                 </h1>
                 <h5>The next version of the website will update soon</h5>

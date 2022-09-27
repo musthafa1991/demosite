@@ -4,10 +4,10 @@ import { AiFillMediumCircle } from "react-icons/ai";
 
 function NavBar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <div className="container">
         <Link className="navbar-brand" to="/">
-        <AiFillMediumCircle size="35px"/> DemoSite
+          <AiFillMediumCircle size="35px" /> DemoSite
         </Link>
         <button
           className="navbar-toggler"
@@ -33,7 +33,7 @@ function NavBar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link activeClassName="activeItem" className="nav-link active" to="/projects">
+              <Link className="nav-link active" to="/projects">
                 Projects
               </Link>
             </li>

@@ -1,8 +1,8 @@
 import React from 'react'
-
+import Common from '../Common'
 function Services1() {
   return (
-    <div>Services1</div>
+    <Common pagename="Service1"/>
   )
 }
 
